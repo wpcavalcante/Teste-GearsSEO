@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+}
+
+body{
+    background-color: white;
+    font-family: 'Gotham';
+}
+
+a{
+    color: var(--main-color1);
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 2rem !important;
+    background-color: var(--main-color1) !important;
+}
+
